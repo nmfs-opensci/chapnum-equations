@@ -8,3 +8,5 @@ Minimal example the components to make equations like 3.1 in a Quarto book
 ## Status
 
 It is kind of working but adds `<script>MathJax.config.section=chap-num</script>` every where including the sidebar and I need it to only be in the `<header>` tag.
+
+the title is in a pandoc.metablock, I think. need to use lua filter to access that. 
